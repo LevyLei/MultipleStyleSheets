@@ -1,0 +1,1617 @@
+Name: UI
+Type: UICategoryFolder
+Children:
+- Name: LightStyleSheet
+  Id: g=4df8fb0aebcf412ccb8456c4b1a17a31
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ButtonStyle
+    - Name: Accent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: ""
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 400
+      - Name: FontItalic
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+    - Name: BorderedRectangular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3b3b3b"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: GoodOperation
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#5893d6"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#154d71"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: FontItalic
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: ""
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#8baed5"
+    - Name: DangerousOperation
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f9564f"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#b33f62"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f3c677"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: PressedBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#b33f62"
+  - Name: InputBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: InputBoxStyle
+    - Name: DangerousInput
+      Type: InputBoxStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f9564f"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#b33f62"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f3c677"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#b33f62"
+      - Name: PlaceHolderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f3c677"
+      - Name: SelectionColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f9564f"
+      - Name: SelectionTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f3c677"
+    - Name: MyInputBoxStyle
+      Type: InputBoxStyle
+      Children:
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Young Serif"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1c72e9"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eee9e9"
+  - Name: SwitchStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: NavigationPanelStyle
+    - Name: MainNavigationPanel
+      Type: NavigationPanelStyle
+      Children:
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: ""
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: ActivePrimaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#add8e6"
+      - Name: InactiveColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cae9f5"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cae9f5"
+      - Name: InactiveTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: ActiveSecondaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+  - Name: ChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ChartStyle
+  - Name: DataListStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: DataListStyle
+  - Name: ToolTipStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: LabelStyle
+    - Name: Title1
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0f4fa7"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 50.0
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Young Serif"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+      - Name: FontItalic
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+    - Name: Title2
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1c72e9"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Young Serif"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 30.0
+    - Name: Paragraph
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1c72e9"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Roboto Light"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 15.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 400
+    - Name: Emph
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1c72e9"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Lucida Handwriting"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 400
+      - Name: FontItalic
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 15.0
+  - Name: FocusGlowSize
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: RadioButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RadioButtonStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+  - Name: CheckBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: CheckBoxStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.0
+- Name: DarkStyleSheet
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ButtonStyle
+    - Name: Accent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: ""
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 400
+      - Name: FontItalic
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+    - Name: BorderedRectangular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3b3b3b"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: GoodOperation
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3d7651"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0f5333"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#040000"
+      - Name: FontItalic
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: ""
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3db04c"
+    - Name: DangerousOperation
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#d00f07"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#7e2942"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c58516"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#696105"
+      - Name: PressedColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#d00f07"
+  - Name: InputBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: InputBoxStyle
+    - Name: DangerousInput
+      Type: InputBoxStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#d00f07"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#7e2942"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c58516"
+      - Name: FocusBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#d00f07"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#696105"
+      - Name: SelectionColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#d00f07"
+      - Name: PlaceHolderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c58516"
+    - Name: MyInputBoxStyle
+      Type: InputBoxStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Young Serif"
+  - Name: SwitchStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: NavigationPanelStyle
+    - Name: MainNavigationPanel
+      Type: NavigationPanelStyle
+      Children:
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: ""
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: ActivePrimaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1450a3"
+      - Name: InactiveColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#337ccf"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#337ccf"
+      - Name: InactiveTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: ActiveSecondaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+  - Name: ChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ChartStyle
+  - Name: DataListStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: DataListStyle
+  - Name: ToolTipStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: LabelStyle
+    - Name: Title1
+      Type: LabelStyle
+      Children:
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Young Serif"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#95bcf3"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 50.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+    - Name: Title2
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#bbd4f7"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Young Serif"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 30.0
+    - Name: Paragraph
+      Type: LabelStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 15.0
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Roboto Light"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: Emph
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Lucida Handwriting"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 15.0
+  - Name: FocusGlowSize
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: WindowColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#121212"
+  - Name: TextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#e4e4e4"
+  - Name: BorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#b3b3b3"
+  - Name: FocusColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#00bcd4"
+  - Name: AccentColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#00bcd4"
+  - Name: AccentBorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#075982"
+  - Name: DataInputBackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#1c1c1c"
+  - Name: DataInputTextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ebebeb"
+  - Name: InteractiveBackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#303030"
+  - Name: InteractiveColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#242424"
+  - Name: RadioButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RadioButtonStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+  - Name: CheckBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: CheckBoxStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.0
+- Name: NativePresentationEngine
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: EnableVirtualKeyboard
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartWindow
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/MultipleStyleSheets/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/MultipleStyleSheets/UI/LightStyleSheet"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../Model/DarkModeEnabled"
+      - Name: Pairs
+        Type: BaseObjectType
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../../LightStyleSheet"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+        - Name: Pair1
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../../DarkStyleSheet"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+  - Name: StartingUser
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Type: BaseObjectType
+- Name: WebPresentationEngine
+  Type: ns=7;PresentationEngine
+  Children:
+  - Name: Protocol
+    Type: BaseDataVariableType
+    DataType: Protocol
+    Value: 0
+  - Name: IPAddress
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0.0.0.0"
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8080
+  - Name: StartWindow
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/MultipleStyleSheets/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/MultipleStyleSheets/UI/LightStyleSheet"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../Model/DarkModeEnabled"
+      - Name: Pairs
+        Type: BaseObjectType
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../../LightStyleSheet"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+        - Name: Pair1
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../../DarkStyleSheet"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+  - Name: StartingUser
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Type: BaseObjectType
+    Children:
+    - Name: Session1
+      Type: UISession
+      Children:
+      - Name: IsInteractive
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: true
+      - Name: IsNative
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+      - Name: IsWeb
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+      - Name: User
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+      - Name: ActualLocaleId
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+        Value: ""
+      - Name: ActualLanguage
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+        Value: ""
+      - Name: ActualMeasurementSystem
+        Type: BaseVariableType
+        DataType: MeasurementSystem
+        ReferenceType: HasProperty
+        Value: 0
+      - Name: TimeZoneOffset
+        Type: BaseVariableType
+        DataType: TimeZoneDataType
+        ReferenceType: HasProperty
+        AccessLevel: Read
+      - Name: Groups
+        Type: BaseObjectType
+      - Name: Roles
+        Type: BaseObjectType
+      - Name: Rights
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=1;i=146
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=266
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=269
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=272
+        Direction: Forward
+      - Name: LoggedIn
+        Type: BaseVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+      - Name: IpAddress
+        Type: BaseDataVariableType
+        DataType: String
+        AccessLevel: Read
+        Value: ""
+  - Name: MaxNumberOfConnections
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 10
+- Name: MainWindow
+  Id: g=01a7e8933afd7c95fe894b0859308138
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1200.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 800.0
+  - Name: Caption
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    Value: "MultipleStyleSheets"
+  - Name: Header
+    Type: Panel
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Background
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#86c5d8"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../BorderColor"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#86c5d8"
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=8;g=46de9d41-9e01-90f7-690f-e3992c86c7b3}"
+          - Name: Pairs
+            Type: BaseObjectType
+            ModellingRule: None
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ModellingRule: None
+                Value: false
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: None
+                Value: "#86c5d8"
+            - Name: Pair1
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ModellingRule: None
+                Value: true
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: None
+                Value: "#191d88"
+      - Name: Title
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Style Sheet Demo"}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+      - Name: Switch1
+        Type: Switch
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/MultipleStyleSheets/Model/DarkModeEnabled"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 60.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "if({0}, {1}, {2})"
+            - Name: ns=2;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../Switch1/Checked"
+            - Name: ns=2;Source1
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Dark"
+            - Name: ns=2;Source2
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Light"
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 128.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Light
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Light Theme"
+        - Name: Dark
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Dark Theme"
+  - Name: NavigationPanel1
+    Type: NavigationPanel
+    Children:
+    - Name: ns=3;Panels
+      Type: BaseObjectType
+      Children:
+      - Name: Panel2
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"DesignTime"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/MultipleStyleSheets/UI/Screens/DesignTime"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel1
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Runtime styles changes"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/MultipleStyleSheets/UI/Screens/Runtime"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: CurrentTabIndex
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Class: Reference
+      Target: ns=3;i=1181
+    - Class: Reference
+      Target: ns=3;i=1183
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 120.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Style
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "MainNavigationPanel"
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+- File: Screens/Screens.yaml
+- Name: PotentiallyDangerousButton
+  Id: g=816a557dd91615afc5d26fbc43a62927
+  Supertype: Button
+  ReferenceType: HasComponent
+  Children:
+  - Name: Text
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"DangerousOperation"}
+  - Name: ControlValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MaxSafeValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: Style
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Default"
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "if({0} < {1}, {2}, {3})"
+      - Name: ns=2;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../ControlValue"
+      - Name: ns=2;Source1
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../MaxSafeValue"
+      - Name: ns=2;Source2
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../GoodStyle"
+      - Name: ns=2;Source3
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../DangerousStyle"
+  - Name: GoodStyle
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "GoodOperation"
+  - Name: DangerousStyle
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DangerousOperation"

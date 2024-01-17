@@ -1,0 +1,7 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: DarkModeEnabled
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
